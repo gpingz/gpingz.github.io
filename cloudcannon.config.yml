@@ -1,7 +1,13 @@
+source: .
+timezone: Asia/Shanghai
+
 paths:
   static: static
   uploads: static/uploads
-timezone: Asia/Shanghai
+  data: data
+  collections: content
+  layouts: layouts
+
 markdown:
   engine: commonmark
   options:
@@ -17,17 +23,183 @@ markdown:
     attributes: false
     typographer: false
     treat_indentation_as_code: true
+
 _snippets_imports:
   hugo:
     exclude:
       - hugo_instagram
+
 collections_config:
-  pages:
-    path: ''
-    icon: wysiwyg
-  content:
+  homepage:
+    name: Homepage
     path: content
+    output: true
+    icon: home
+    description: Edit the landing page sections such as Research and Contact.
+    filter:
+      base: strict
+      include:
+        - _index.md
+    _enabled_editors:
+      - data
+      - content
+      - visual
+  projects:
+    name: Projects
+    path: content/projects
+    output: true
+    icon: work
+    description: Edit project titles, descriptions, tags, and field photos.
+    filter:
+      base: strict
+      exclude:
+        - _index.md
+    _enabled_editors:
+      - content
+      - data
+      - visual
+  publications:
+    name: Publications
+    path: content/publications
+    output: true
+    icon: article
+    description: Edit publication metadata, abstracts, featured status, and links.
+    _enabled_editors:
+      - content
+      - data
+  uploads:
+    name: Uploads
+    path: static/uploads
+    output: false
+    icon: upload_file
+    description: Upload CV PDFs and reusable files.
+  content:
+    name: All Content
+    path: content
+    output: true
     icon: wysiwyg
+    description: Fallback content browser.
+  pages:
+    name: Site Files
+    path: ''
+    output: false
+    icon: folder
+    description: Advanced file browser for repository files.
+
+data_config:
+  authors:
+    name: Profile
+    path: data/authors
+    icon: account_circle
+    description: Edit profile details, biography, experience, education, skills, and awards.
   data_authors:
+    name: Profile Data
     path: data/authors
     icon: data_alert
+    description: Fallback data browser for author profile files.
+
+_inputs:
+  title:
+    type: text
+    label: Title
+  summary:
+    type: textarea
+    label: Summary
+    comment: Short text used in cards, previews, and section summaries.
+  text:
+    type: markdown
+    label: Section text
+  bio:
+    type: markdown
+    label: Biography
+  abstract:
+    type: markdown
+    label: Abstract
+  date:
+    type: date
+    label: Date
+  start:
+    type: date
+    label: Start date
+  end:
+    type: date
+    label: End date
+  publishDate:
+    type: datetime
+    label: Publish date
+  featured:
+    type: switch
+    label: Featured
+  peer_reviewed:
+    type: switch
+    label: Peer reviewed
+  open_access:
+    type: switch
+    label: Open access
+  tags:
+    type: array
+    label: Tags
+  links:
+    type: array
+    label: Links
+  projects:
+    type: array
+    label: Related projects
+  image:
+    type: object
+    label: Image settings
+  caption:
+    type: text
+    label: Caption
+  focal_point:
+    type: select
+    label: Focal point
+    options:
+      values:
+        - ''
+        - Smart
+        - Center
+        - Top
+        - Bottom
+        - Left
+        - Right
+  preview_only:
+    type: switch
+    label: Preview only
+  display:
+    type: text
+    label: Display name
+  given:
+    type: text
+    label: Given name
+  family:
+    type: text
+    label: Family name
+  role:
+    type: text
+    label: Role
+  affiliations:
+    type: array
+    label: Affiliations
+  interests:
+    type: array
+    label: Research interests
+  education:
+    type: array
+    label: Education
+  experience:
+    type: array
+    label: Experience
+  skills:
+    type: array
+    label: Skills
+  awards:
+    type: array
+    label: Awards
+
+_select_data:
+  publication_types:
+    - paper-journal
+    - paper-conference
+    - manuscript
+    - report
