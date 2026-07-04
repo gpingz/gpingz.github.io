@@ -34,15 +34,14 @@
 
 ## 部署建议
 
-推荐 Netlify，因为模板自带 `netlify.toml`，已经配置了 Hugo 0.163.3、Node 和构建命令。
+当前站点按 GitHub Pages 根域名配置：
 
-Netlify 步骤：
+- Repository: `gpingz/gpingz.github.io`
+- Public URL: `https://gpingz.github.io/`
 
-1. 把整个 `personal-homepage-hugoblox` 文件夹上传到 GitHub 仓库。
-2. 在 Netlify 新建站点并连接该仓库。
-3. Netlify 会读取 `netlify.toml` 自动构建，发布目录为 `public`。
+GitHub Pages 会通过 `.github/workflows/build.yml` 自动构建和发布 HugoBlox 站点。修改内容后提交并推送到 `main` 分支，GitHub Actions 完成后页面会自动更新。
 
-GitHub Pages 也可以部署，但需要使用 GitHub Actions 构建 Hugo 站点。模板已经包含 `.github/workflows/`，可以按你的仓库设置再调整。
+如果以后要换自定义域名，可以在 GitHub Pages 设置里添加域名，并把 `config/_default/hugo.yaml` 里的 `baseURL` 改成对应域名。
 
 ## 本地预览
 
@@ -53,7 +52,7 @@ pnpm install
 pnpm run dev
 ```
 
-当前 Codex 环境已临时下载 Hugo Extended，但本地缺少 Go 工具链，且从 Go 官方下载临时 Go 时网络超时，所以我没有完成本地 Hugo modules 构建。文件结构和内容已按 HugoBlox Academic CV 模板整理好，可直接交给 Netlify 或 GitHub Actions 在线构建。
+当前 Codex 环境已临时下载 Hugo Extended，但本地缺少 Go 工具链，且从 Go 官方下载临时 Go 时网络超时，所以本地 Hugo modules 构建可能受限。文件结构和内容已按 HugoBlox Academic CV 模板整理好，可直接交给 GitHub Actions 在线构建。
 
 ## 模板来源
 
