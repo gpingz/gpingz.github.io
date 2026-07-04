@@ -23,6 +23,12 @@
 - 覆盖 `content/projects/pakistan-cenozoic-volcanism/featured.jpg`
 - 覆盖 `content/projects/south-poyang-basin/featured.jpg`
 
+## 可视化编辑
+
+这个仓库已经加入 CloudCannon 配置文件：`cloudcannon.config.yml`。
+
+把 CloudCannon 连接到 GitHub 仓库 `gpingz/gpingz.github.io` 后，可以在网页后台编辑个人信息、首页文案、项目描述、论文条目，并上传/替换图片。具体步骤见 `CLOUDCANNON.md`。
+
 ## 修改文字
 
 最常改的两个位置：
