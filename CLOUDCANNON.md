@@ -40,6 +40,13 @@ The repository also includes `.cloudcannon/prebuild`. CloudCannon sources this
 file during its own preview build, installs Hugo `0.163.3`, and runs
 `pnpm run build` so that the `public` output folder is generated.
 
+The Visual Editor is enabled through:
+
+`layouts/_partials/hooks/body-end/cloudcannon-editable-regions.html`
+
+This file adds CloudCannon editable regions to the build output. The panel is
+hidden on the public site and only appears inside CloudCannon's editor.
+
 ## Replace The Profile Photo
 
 Replace this file:
