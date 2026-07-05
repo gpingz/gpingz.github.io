@@ -1,0 +1,93 @@
+{{- /*
+  CloudCannon Visual Editor markers.
+
+  HugoBlox renders most page HTML from Hugo modules, so we expose a compact
+  editor-only panel with CloudCannon editable regions instead of overriding the
+  whole theme. Public visitors do not see this panel.
+*/ -}}
+{{- $showPanel := or .IsHome (in (slice "projects" "publications") .Section) -}}
+{{- if $showPanel -}}
+  <section
+    id="cloudcannon-editable-regions"
+    hidden
+    style="max-width: 960px; margin: 3rem auto; padding: 1.5rem; border: 2px dashed #2563eb; border-radius: 12px; background: #eff6ff; color: #111827; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    aria-label="CloudCannon editable regions"
+  >
+    <p style="margin: 0 0 1rem; font-size: 0.875rem; font-weight: 700; color: #1d4ed8;">
+      CloudCannon visual editing panel
+    </p>
+
+    {{- if .IsHome -}}
+      <h2 data-editable="text" data-prop="summary" style="margin: 0 0 1rem; font-size: 1.25rem;">
+        {{ .Params.summary }}
+      </h2>
+
+      {{- with index .Params.sections 0 -}}
+        {{- with .content.text -}}
+          <editable-text data-prop="sections[0].content.text">
+            {{ . | markdownify }}
+          </editable-text>
+        {{- end -}}
+      {{- end -}}
+
+      {{- with index .Params.sections 1 -}}
+        {{- with .content.text -}}
+          <div style="margin-top: 1.5rem;">
+            <h3 style="margin: 0 0 0.5rem;">Research</h3>
+            <editable-text data-prop="sections[1].content.text">
+              {{ . | markdownify }}
+            </editable-text>
+          </div>
+        {{- end -}}
+      {{- end -}}
+
+      {{- with index .Params.sections 5 -}}
+        {{- with .content.text -}}
+          <div style="margin-top: 1.5rem;">
+            <h3 style="margin: 0 0 0.5rem;">Contact</h3>
+            <editable-text data-prop="sections[5].content.text">
+              {{ . | markdownify }}
+            </editable-text>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      <h1 data-editable="text" data-prop="title" style="margin: 0 0 1rem; font-size: 1.5rem;">
+        {{ .Title }}
+      </h1>
+
+      {{- with .Params.summary -}}
+        <p data-editable="text" data-prop="summary" style="margin: 0 0 1rem;">
+          {{ . }}
+        </p>
+      {{- end -}}
+
+      {{- if eq .Section "projects" -}}
+        {{- with .Resources.GetMatch "featured*" -}}
+          <img
+            data-editable="image"
+            data-prop-src="featured"
+            src="{{ .RelPermalink }}"
+            alt="{{ $.Title }} featured image"
+            style="display: block; width: 100%; max-width: 480px; height: auto; margin: 1rem 0; border-radius: 8px;"
+          >
+        {{- end -}}
+      {{- end -}}
+
+      <editable-text data-prop="@content">
+        {{ .Content }}
+      </editable-text>
+    {{- end -}}
+  </section>
+
+  <script>
+    (function () {
+      if (window.inEditorMode) {
+        var panel = document.getElementById('cloudcannon-editable-regions');
+        if (panel) {
+          panel.hidden = false;
+        }
+      }
+    }());
+  </script>
+{{- end -}}
