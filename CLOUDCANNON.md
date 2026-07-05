@@ -36,6 +36,10 @@ Use these settings if CloudCannon asks for them:
 GitHub Pages is still the public host. After CloudCannon saves changes to
 GitHub, GitHub Actions will rebuild and publish the site automatically.
 
+The repository also includes `.cloudcannon/prebuild`. CloudCannon sources this
+file during its own preview build, installs Hugo `0.163.3`, and runs
+`pnpm run build` so that the `public` output folder is generated.
+
 ## Replace The Profile Photo
 
 Replace this file:
