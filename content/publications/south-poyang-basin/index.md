@@ -21,7 +21,7 @@ tags:
   - South Poyang Basin
   - Paleogeography
   - Organic matter enrichment
-featured: false
+featured: true
 links: []
 image:
   caption: ''

@@ -10,13 +10,13 @@ name:
   pronouns: ''
 postnominals:
   - PhD
-role: Postdoctoral Researcher
+role: Postdoctoral Researcher in Marine Geology
 bio: |
-  I am a marine geologist studying volatile cycling in subduction zones and
-  its role in magma generation and metallogenesis. My work combines isotope
-  geochemistry, petrology, geochronology, and thermodynamic modeling to
-  constrain carbon and water cycling in the Makran system and related
-  subduction-to-collision magmatic systems.
+  I am a marine geologist interested in Earth material cycles across
+  environments, resources, oceans, crust, and mantle. My work connects
+  sedimentary records, isotope geochemistry, petrology, ocean drilling, and
+  data synthesis to understand environmental change, resource formation, and
+  deep recycling of carbon, water, and other key materials.
 
 affiliations:
   - name: South China Sea Institute of Oceanology, Chinese Academy of Sciences
@@ -30,11 +30,11 @@ links:
     label: Email
 
 interests:
-  - Subduction-zone volatile cycling
-  - Isotope geochemistry
-  - Magma generation and metallogenesis
-  - Thermodynamic modeling
-  - Marine geology and tectonics
+  - Environmental and resource geoscience
+  - Ocean drilling and marine geology
+  - Carbon, water, and volatile cycling
+  - Isotope geochemistry and petrology
+  - Ocean-basin and tectonic evolution
 
 education:
   - degree: Ph.D., Marine Geology
@@ -49,6 +49,12 @@ education:
     end: 2022-06-30
     summary: |
       Advisor: Dr. Jun Wang.
+  - degree: Visiting Scholar
+    institution: Lamont-Doherty Earth Observatory, Columbia University
+    start: 2024-04-01
+    end: 2025-04-01
+    summary: |
+      Advisor: Prof. Susanne M. Straub.
 
 experience:
   - role: Postdoctoral Researcher
@@ -60,9 +66,10 @@ experience:
       Advisor: Prof. Zhen Sun.
   - role: Visiting Scholar
     org: Lamont-Doherty Earth Observatory, Columbia University
-    start: 2024-01-01
-    end: 2025-01-01
+    start: 2024-04-01
+    end: 2025-04-01
     summary: |
+      Visiting research on isotope geochemistry and Earth material cycling.
       Advisor: Prof. Susanne M. Straub.
 
 skills:

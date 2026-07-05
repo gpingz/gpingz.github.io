@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Academic homepage of Dr. Guangping Zeng, a marine geologist studying isotope geochemistry, subduction-zone volatile cycling, and magma generation."
+    description: "Academic homepage of Dr. Guangping Zeng, a marine geologist studying environmental and resource geoscience, ocean drilling, isotope geochemistry, and Earth material cycles."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
@@ -72,7 +72,7 @@ hugoblox:
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: rounded # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER

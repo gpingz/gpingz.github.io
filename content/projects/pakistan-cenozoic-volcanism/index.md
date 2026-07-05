@@ -1,7 +1,7 @@
 ---
-title: "Cenozoic Volcanism in Pakistan"
+title: "Pakistan Cenozoic Magmatism and Tectonic Evolution"
 date: 2022-01-01
-summary: "Geochronological, petrological, and geochemical constraints on magma genesis and tectonic evolution."
+summary: "A record of how subduction-to-collision processes shape magma sources, crustal evolution, and regional tectonics."
 tags:
   - Pakistan
   - Cenozoic volcanism
@@ -10,6 +10,10 @@ tags:
 links: []
 ---
 
-This project applies geochronology, petrology, and geochemistry to investigate
-magma genesis and tectonic evolution in Pakistan, especially across the
-transition from subduction-related to collision-related magmatism.
+Pakistan's Cenozoic volcanic belts record the transition from oceanic
+subduction to continental collision along the India-Eurasia system.
+
+I use geochronological, petrological, and geochemical constraints to evaluate
+how mantle sources, crustal inputs, and tectonic setting changed through time.
+The project provides the regional tectonic framework for interpreting material
+recycling in the Makran and neighboring magmatic systems.

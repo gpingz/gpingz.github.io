@@ -1,7 +1,7 @@
 ---
-title: "South Poyang Basin"
+title: "South Poyang Basin: Paleoenvironment and Organic Matter Enrichment"
 date: 2019-01-01
-summary: "Sequence stratigraphy and geochemical reconstruction of paleogeographic evolution and organic matter enrichment."
+summary: "A sedimentary-basin record of environmental change, paleogeography, and resource-related organic matter accumulation."
 tags:
   - South Poyang Basin
   - Paleogeography
@@ -10,6 +10,9 @@ tags:
 links: []
 ---
 
-This project combines sequence stratigraphy and geochemical analyses to
-reconstruct paleogeographic evolution in the South Poyang Basin and constrain
-controls on organic matter enrichment.
+This project uses sequence stratigraphy and geochemical records to reconstruct
+depositional environments in the South Poyang Basin.
+
+The work links paleogeography, water-depth and sediment-supply changes, and
+organic matter enrichment. It represents the surface-environment and resource
+side of my broader interest in Earth material cycles.

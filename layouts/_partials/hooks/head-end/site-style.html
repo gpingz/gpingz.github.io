@@ -1,0 +1,64 @@
+<style>
+  :root {
+    --gp-surface: #f7fbf8;
+    --gp-surface-dark: #0f1f24;
+  }
+
+  .terrain-bg,
+  #section-resume-biography-3 {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--gp-surface);
+    background-image:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(241, 248, 245, 0.76)),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='780' height='520' viewBox='0 0 780 520'%3E%3Cg fill='none' stroke='%232f6f73' stroke-opacity='.16' stroke-width='2'%3E%3Cpath d='M-40 80 C70 20 170 35 240 95 C320 165 420 160 500 95 C585 25 690 28 820 105'/%3E%3Cpath d='M-55 160 C60 95 185 102 275 178 C365 255 465 245 555 172 C650 95 735 110 825 195'/%3E%3Cpath d='M-45 245 C85 185 205 200 315 282 C420 360 540 330 625 250 C700 180 770 175 830 225'/%3E%3Cpath d='M-35 335 C85 295 190 305 300 380 C405 455 545 435 650 345 C720 285 780 280 835 325'/%3E%3Cpath d='M-50 430 C90 395 225 400 345 465 C465 528 595 505 700 430 C760 388 810 380 850 405'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: center top, center top;
+    background-size: auto, 780px 520px;
+  }
+
+  .terrain-bg::before,
+  #section-resume-biography-3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(20, 184, 166, 0.08), transparent 34%, rgba(148, 163, 184, 0.08)),
+      linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.72) 92%);
+  }
+
+  .terrain-bg > *,
+  #section-resume-biography-3 > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  #section-resume-biography-3 > .absolute.inset-0.-z-10 {
+    display: none;
+  }
+
+  .home-intro img[src*="author"],
+  .home-intro img[src*="avatar"],
+  img.avatar,
+  .avatar img,
+  .avatar-wrapper img {
+    border-radius: 26% !important;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+    object-fit: cover;
+  }
+
+  .dark .terrain-bg,
+  .dark #section-resume-biography-3 {
+    background-color: var(--gp-surface-dark);
+    background-image:
+      linear-gradient(180deg, rgba(15, 31, 36, 0.92), rgba(15, 31, 36, 0.82)),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='780' height='520' viewBox='0 0 780 520'%3E%3Cg fill='none' stroke='%2399d2ca' stroke-opacity='.14' stroke-width='2'%3E%3Cpath d='M-40 80 C70 20 170 35 240 95 C320 165 420 160 500 95 C585 25 690 28 820 105'/%3E%3Cpath d='M-55 160 C60 95 185 102 275 178 C365 255 465 245 555 172 C650 95 735 110 825 195'/%3E%3Cpath d='M-45 245 C85 185 205 200 315 282 C420 360 540 330 625 250 C700 180 770 175 830 225'/%3E%3Cpath d='M-35 335 C85 295 190 305 300 380 C405 455 545 435 650 345 C720 285 780 280 835 325'/%3E%3Cpath d='M-50 430 C90 395 225 400 345 465 C465 528 595 505 700 430 C760 388 810 380 850 405'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .dark .terrain-bg::before,
+  .dark #section-resume-biography-3::before {
+    background:
+      linear-gradient(90deg, rgba(45, 212, 191, 0.08), transparent 34%, rgba(148, 163, 184, 0.08)),
+      linear-gradient(180deg, transparent 0%, rgba(15, 31, 36, 0.68) 92%);
+  }
+</style>

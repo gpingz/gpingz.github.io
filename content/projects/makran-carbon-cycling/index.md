@@ -1,18 +1,20 @@
 ---
-title: "Makran Subduction Zone: Carbon Cycling"
+title: "Makran System: Sediment, Carbon, and Volatile Recycling"
 date: 2024-01-01
-summary: "Petrology, isotope geochemistry, and thermodynamic modeling of sedimentary carbon recycling in the Makran system."
+summary: "A case study of how sediments, organic carbon, water, and trace elements are recycled from the seafloor into arc magmatism."
 tags:
   - Makran
   - Carbon cycling
+  - Volatile cycling
   - Isotope geochemistry
-  - Thermodynamic modeling
 links: []
 ---
 
-This project integrates petrology, isotope geochemistry, and thermodynamic
-modeling to constrain sedimentary carbon recycling mechanisms and fluxes in
-subduction zones, with a focus on the Makran system.
+The Makran system is a natural laboratory for testing how unusually thick
+sediment inputs influence carbon, water, and trace-element transfer from the
+subducting plate into the overriding arc.
 
-The work tests how unusually thick sediment inputs, slab fluids, and melts
-control volatile transfer from the subducting plate to arc magmatism.
+I use petrology, isotope geochemistry, and thermodynamic constraints to link
+sedimentary inputs, slab-derived fluids and melts, and volcanic outputs. This
+work connects surface carbon reservoirs with deep recycling and arc
+geochemical signatures.
