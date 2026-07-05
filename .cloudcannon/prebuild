@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+
+if command -v install-hugo >/dev/null 2>&1; then
+  install-hugo 0.163.3
+fi
+
+pnpm run build
