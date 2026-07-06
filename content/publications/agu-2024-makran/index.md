@@ -20,7 +20,7 @@ tags:
 featured: false
 links: []
 image:
-  caption: ''
+  caption: 'AGU Fall Meeting 2024 poster presentation on Makran sediment recycling.'
   focal_point: ''
   preview_only: false
 projects:
@@ -29,3 +29,5 @@ slides: ''
 ---
 
 Abstract presented at AGU Fall Meeting 2024.
+
+![AGU Fall Meeting 2024 poster presentation on Makran sediment recycling.](featured.png)

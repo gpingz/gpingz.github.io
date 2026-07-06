@@ -96,6 +96,30 @@ sections:
       columns: 3
 
   - block: markdown
+    id: beyond-research
+    content:
+      title: Beyond Research
+      subtitle: Trails, summits, coffee, baking, and LEGO
+      text: |-
+        Fieldwork may have trained me to walk uphill with suspicious optimism.
+        When I am away from samples and spreadsheets, I like coffee, baking,
+        LEGO, hiking, swimming, cycling, and the occasional mountain that looks
+        negotiable from far away.
+
+        <div class="gp-photo-grid gp-photo-grid-wide">
+          <figure class="gp-photo-card">
+            <img src="/uploads/life/hiking-group.png" alt="Group hiking photo">
+            <figcaption><strong>Hiking.</strong> Find me in the third row from the back, first on the left: a small but properly oriented field marker.</figcaption>
+          </figure>
+          <figure class="gp-photo-card gp-photo-card-wide">
+            <img src="/uploads/life/xiongshan-summit.png" alt="Group photo after reaching the summit of Xiongshan">
+            <figcaption><strong>Xiongshan summit.</strong> The view did most of the motivational work; we just supplied the uphill walking.</figcaption>
+          </figure>
+        </div>
+    design:
+      columns: '1'
+
+  - block: markdown
     id: contact
     content:
       title: Contact & Collaboration

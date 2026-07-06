@@ -20,7 +20,7 @@ tags:
 featured: true
 links: []
 image:
-  caption: ''
+  caption: 'Representative model and isotope constraints for Makran sediment recycling.'
   focal_point: ''
   preview_only: false
 projects:
@@ -29,3 +29,5 @@ slides: ''
 ---
 
 Status: under review.
+
+![Representative model and isotope constraints for Makran sediment recycling.](featured.png)
