@@ -47,6 +47,38 @@
     object-fit: cover;
   }
 
+  #section-resume-biography-3 div:has(> a[href^="mailto:"]):has(> a[href*="scholar.google.com"]) {
+    column-gap: 2.25rem !important;
+    row-gap: 2.4rem !important;
+  }
+
+  #section-resume-biography-3 a[href^="mailto:"],
+  #section-resume-biography-3 a[href*="scholar.google.com"] {
+    position: relative;
+    margin-bottom: 1.35rem;
+  }
+
+  #section-resume-biography-3 a[href^="mailto:"]::after,
+  #section-resume-biography-3 a[href*="scholar.google.com"]::after {
+    position: absolute;
+    top: 3.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(51, 65, 85);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  #section-resume-biography-3 a[href^="mailto:"]::after {
+    content: "Email";
+  }
+
+  #section-resume-biography-3 a[href*="scholar.google.com"]::after {
+    content: "Google Scholar";
+  }
+
   .dark .terrain-bg,
   .dark #section-resume-biography-3 {
     background-color: var(--gp-surface-dark);
@@ -60,6 +92,11 @@
     background:
       linear-gradient(90deg, rgba(45, 212, 191, 0.08), transparent 34%, rgba(148, 163, 184, 0.08)),
       linear-gradient(180deg, transparent 0%, rgba(15, 31, 36, 0.68) 92%);
+  }
+
+  .dark #section-resume-biography-3 a[href^="mailto:"]::after,
+  .dark #section-resume-biography-3 a[href*="scholar.google.com"]::after {
+    color: rgb(203, 213, 225);
   }
 
   .gp-photo-grid {

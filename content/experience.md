@@ -17,7 +17,7 @@ sections:
             <p class="gp-timeline-date">July 2025 - Present</p>
             <h3>Postdoctoral Researcher</h3>
             <p><strong>Deep Sea Drilling Center, Guangzhou Marine Geological Survey</strong></p>
-            <p>Host institute: GMGS. Associated institute: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences. Advisor: Prof. Zhen Sun.</p>
+            <p>Host institute: Deep Sea Drilling Center, Guangzhou Marine Geological Survey. Associated institute: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences. Advisor: Prof. Zhen Sun.</p>
           </section>
 
           <section>
@@ -25,6 +25,20 @@ sections:
             <h3>Visiting Ph.D. Student, Marine Geology</h3>
             <p><strong>Lamont-Doherty Earth Observatory, Columbia University</strong></p>
             <p>Visiting research on isotope geochemistry and Earth material cycling. Advisor: Prof. Susanne M. Straub.</p>
+          </section>
+
+          <section>
+            <p class="gp-timeline-date">September 2022 - June 2025</p>
+            <h3>Ph.D. Student, Geochemistry</h3>
+            <p><strong>South China Sea Institute of Oceanology, Chinese Academy of Sciences</strong></p>
+            <p>Doctoral research on isotope geochemistry, magmatism, and material cycling. Advisor: Prof. Yunying Zhang.</p>
+          </section>
+
+          <section>
+            <p class="gp-timeline-date">September 2019 - June 2022</p>
+            <h3>M.S. Student, Geology</h3>
+            <p><strong>Institute of Sedimentary Geology, Chengdu University of Technology</strong></p>
+            <p>Master's research on sedimentary records and paleoenvironmental reconstruction. Advisor: Dr. Jun Wang.</p>
           </section>
         </div>
     design:

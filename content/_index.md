@@ -156,8 +156,8 @@ sections:
         laboratory data, and broader Earth-system problems.
 
         <iframe
-          title="GMGS Nansha Research Base location"
-          src="https://www.google.com/maps?q=%E5%B9%BF%E5%B7%9E%E6%B5%B7%E6%B4%8B%E5%9C%B0%E8%B4%A8%E8%B0%83%E6%9F%A5%E5%B1%80%E5%8D%97%E6%B2%99%E7%A7%91%E7%A0%94%E5%9F%BA%E5%9C%B0%201133%20Haibin%20Road%20Nansha%20District%20Guangzhou&hl=en&output=embed"
+          title="Nansha Tianhou Palace area map"
+          src="https://www.google.com/maps?q=Nansha%20Tianhou%20Palace%2C%20Nansha%20District%2C%20Guangzhou%2C%20China&hl=en&z=2&output=embed"
           width="100%"
           height="320"
           style="border:0; border-radius:12px; margin-top:1rem;"
