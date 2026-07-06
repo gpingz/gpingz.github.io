@@ -175,6 +175,11 @@
     text-decoration: none;
   }
 
+  #publications [role="article"] > div:first-child:not(:has(img)),
+  #projects [role="article"] > div:first-child:not(:has(img)) {
+    display: none;
+  }
+
   .dark .gp-photo-card {
     border-color: rgba(226, 232, 240, 0.14);
     background: rgba(15, 23, 42, 0.82);

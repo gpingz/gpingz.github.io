@@ -100,5 +100,15 @@
         shareSection.hidden = true;
       }
     });
+
+    ['#publications', '#projects'].forEach(function (sectionSelector) {
+      document
+        .querySelectorAll(sectionSelector + ' [role="article"] > div:first-child')
+        .forEach(function (media) {
+          if (!media.querySelector('img')) {
+            media.hidden = true;
+          }
+        });
+    });
   }());
 </script>
