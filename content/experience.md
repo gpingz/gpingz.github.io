@@ -22,7 +22,7 @@ sections:
 
           <section>
             <p class="gp-timeline-date">April 2024 - April 2025</p>
-            <h3>Visiting Ph.D. Student</h3>
+            <h3>Visiting Ph.D. Student, Marine Geology</h3>
             <p><strong>Lamont-Doherty Earth Observatory, Columbia University</strong></p>
             <p>Visiting research on isotope geochemistry and Earth material cycling. Advisor: Prof. Susanne M. Straub.</p>
           </section>

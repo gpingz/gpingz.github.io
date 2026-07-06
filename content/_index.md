@@ -9,19 +9,11 @@ sections:
     content:
       username: me
       text: |
-        I come from Shaoguan, a city in southern China. Its best-known
-        landscape is Danxia Mountain, a classic example of the
+        I come from Shaoguan, a city in southern China near Mount Danxia, a
+        world-famous UNESCO Global Geopark and classic
         [Danxia landform](https://en.wikipedia.org/wiki/Danxia_landform).
-        Danxia landscapes are striking because red continental sandstones and
-        conglomerates have been carved into steep cliffs, flat-topped peaks,
-        narrow valleys, and layered rock walls. Seeing geology appear so
-        directly in the landscape was one reason I became curious about Earth
-        science.
-
-        <figure class="gp-inline-figure">
-          <img src="/uploads/about/danxiashan.jpg" alt="Danxia Mountain landform in Shaoguan, China">
-          <figcaption><strong>Danxia Mountain, Shaoguan.</strong> A representative Danxia landform. Image source: user-provided photograph.</figcaption>
-        </figure>
+        Growing up close to these rocks helped spark my curiosity about
+        geology.
 
         I am now an early-career marine geologist interested in how Earth
         materials move through environments, resources, oceans, crust, and
@@ -31,6 +23,11 @@ sections:
 
         Outside research, I enjoy coffee, baking, visiting museums, and staying
         active through hiking, swimming, and cycling.
+
+        <figure class="gp-inline-figure">
+          <img src="/uploads/about/danxiashan.jpg" alt="Mount Danxia landform in Shaoguan, China">
+          <figcaption><strong>Mount Danxia.</strong> A world-famous UNESCO Global Geopark of China. Image source: Wikipedia.</figcaption>
+        </figure>
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -127,11 +124,11 @@ sections:
           </figure>
           <figure class="gp-photo-card gp-photo-card-wide">
             <img src="/uploads/life/cycling.png" alt="Roadside bicycle during a cycling trip">
-            <figcaption><strong>Cycling.</strong> A quiet way to explore a place at road speed.</figcaption>
+            <figcaption><strong>Cycling.</strong> Riding to the office during my Lamont visit.</figcaption>
           </figure>
           <figure class="gp-photo-card">
             <img src="/uploads/life/bbq.png" alt="Outdoor barbecue with colleagues">
-            <figcaption><strong>BBQ.</strong> Food, conversation, and a useful pause from lab and desk work.</figcaption>
+            <figcaption><strong>BBQ at Lamont.</strong> Thanks to Gus from Lamont Oceanography for the grill; I mainly prepared ingredients and enjoyed the food.</figcaption>
           </figure>
         </div>
     design:
@@ -160,7 +157,7 @@ sections:
 
         <iframe
           title="GMGS Nansha Research Base location"
-          src="https://www.google.com/maps?q=Guangzhou%20Marine%20Geological%20Survey%20Nansha%20Research%20Base%201133%20Haibin%20Road%20Nansha%20District%20Guangzhou&hl=en&output=embed"
+          src="https://www.google.com/maps?q=%E5%B9%BF%E5%B7%9E%E6%B5%B7%E6%B4%8B%E5%9C%B0%E8%B4%A8%E8%B0%83%E6%9F%A5%E5%B1%80%E5%8D%97%E6%B2%99%E7%A7%91%E7%A0%94%E5%9F%BA%E5%9C%B0%201133%20Haibin%20Road%20Nansha%20District%20Guangzhou&hl=en&output=embed"
           width="100%"
           height="320"
           style="border:0; border-radius:12px; margin-top:1rem;"
