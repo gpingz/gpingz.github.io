@@ -104,6 +104,77 @@
     font-weight: 700;
   }
 
+  .gp-inline-figure {
+    margin: 1.2rem 0 1.4rem;
+  }
+
+  .gp-inline-figure img {
+    display: block;
+    width: min(100%, 34rem);
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .gp-inline-figure figcaption {
+    margin-top: 0.5rem;
+    color: rgb(71, 85, 105);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .gp-timeline-list {
+    display: grid;
+    gap: 1.1rem;
+  }
+
+  .gp-timeline-list section {
+    padding: 0 0 1.1rem 1.1rem;
+    border-left: 2px solid rgba(20, 184, 166, 0.38);
+  }
+
+  .gp-timeline-list section:last-child {
+    padding-bottom: 0;
+  }
+
+  .gp-timeline-list h3 {
+    margin: 0.12rem 0 0.25rem;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .gp-timeline-list p {
+    margin: 0.22rem 0;
+    color: rgb(51, 65, 85);
+    line-height: 1.55;
+  }
+
+  .gp-timeline-date {
+    color: rgb(15, 118, 110) !important;
+    font-size: 0.86rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .gp-publication-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.4rem 0;
+  }
+
+  .gp-publication-contact a {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(15, 23, 42, 0.16);
+    border-radius: 8px;
+    padding: 0.48rem 0.72rem;
+    color: rgb(15, 118, 110);
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
   .dark .gp-photo-card {
     border-color: rgba(226, 232, 240, 0.14);
     background: rgba(15, 23, 42, 0.82);
@@ -115,5 +186,23 @@
 
   .dark .gp-photo-card figcaption strong {
     color: rgb(248, 250, 252);
+  }
+
+  .dark .gp-inline-figure figcaption,
+  .dark .gp-timeline-list p {
+    color: rgb(203, 213, 225);
+  }
+
+  .dark .gp-timeline-list section {
+    border-left-color: rgba(45, 212, 191, 0.34);
+  }
+
+  .dark .gp-timeline-date {
+    color: rgb(94, 234, 212) !important;
+  }
+
+  .dark .gp-publication-contact a {
+    border-color: rgba(226, 232, 240, 0.18);
+    color: rgb(94, 234, 212);
   }
 </style>

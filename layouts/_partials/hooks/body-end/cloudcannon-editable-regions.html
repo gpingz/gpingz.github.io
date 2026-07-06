@@ -91,3 +91,14 @@
     }());
   </script>
 {{- end -}}
+
+<script>
+  (function () {
+    document.querySelectorAll('a[id^="share-link-"]').forEach(function (link) {
+      var shareSection = link.closest('section');
+      if (shareSection) {
+        shareSection.hidden = true;
+      }
+    });
+  }());
+</script>

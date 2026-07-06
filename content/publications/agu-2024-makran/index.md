@@ -18,9 +18,14 @@ tags:
   - Sediment recycling
   - Sr-Nd-Pb isotopes
 featured: false
-links: []
+share: false
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=MfU38ZMAAAAJ
+  - name: Email
+    url: mailto:zengguangping22@mails.ucas.ac.cn
 image:
-  caption: 'AGU Fall Meeting 2024 poster presentation on Makran sediment recycling.'
+  caption: ''
   focal_point: ''
   preview_only: false
 projects:
@@ -28,6 +33,15 @@ projects:
 slides: ''
 ---
 
-Abstract presented at AGU Fall Meeting 2024.
+## Abstract
 
-![AGU Fall Meeting 2024 poster presentation on Makran sediment recycling.](featured.png)
+This AGU Fall Meeting 2024 presentation reports whole-rock elemental and
+Sr-Nd-Pb isotope constraints on sediment recycling at the Makran arc. The work
+connects geochemical systematics with sediment inputs and arc volcanic outputs.
+
+![AGU Fall Meeting 2024 poster presentation on Makran sediment recycling.](agu-2024-poster.png)
+
+<div class="gp-publication-contact">
+  <a href="mailto:zengguangping22@mails.ucas.ac.cn">Email</a>
+  <a href="https://scholar.google.com/citations?user=MfU38ZMAAAAJ">Google Scholar</a>
+</div>

@@ -21,7 +21,12 @@ tags:
   - Mud systems
   - Structural evolution
 featured: true
-links: []
+share: false
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=MfU38ZMAAAAJ
+  - name: Email
+    url: mailto:zengguangping22@mails.ucas.ac.cn
 image:
   caption: ''
   focal_point: ''
@@ -31,4 +36,17 @@ projects:
 slides: ''
 ---
 
+## Abstract
+
+This accepted article examines mud intrusive-extrusive systems in the Makran
+accretionary wedge, focusing on their structural evolution, process
+relationships, and spatial patterns. The study contributes to understanding
+sediment deformation, fluid migration, and wedge-scale geological processes in
+an active convergent margin.
+
 Status: accepted.
+
+<div class="gp-publication-contact">
+  <a href="mailto:zengguangping22@mails.ucas.ac.cn">Email</a>
+  <a href="https://scholar.google.com/citations?user=MfU38ZMAAAAJ">Google Scholar</a>
+</div>

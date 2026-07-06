@@ -19,20 +19,23 @@ bio: |
   deep recycling of carbon, water, and other key materials.
 
 affiliations:
-  - name: South China Sea Institute of Oceanology, Chinese Academy of Sciences
-    url: https://english.scsio.cas.cn/
   - name: Deep Sea Drilling Center, Guangzhou Marine Geological Survey
     url: ''
+  - name: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences
+    url: http://sklto.scsio.ac.cn/
 
 links:
   - icon: at-symbol
     url: mailto:zengguangping22@mails.ucas.ac.cn
     label: Email
+  - icon: hero/academic-cap
+    url: https://scholar.google.com/citations?user=MfU38ZMAAAAJ
+    label: Google Scholar
 
 interests:
-  - Environmental and resource geoscience
   - Ocean drilling and marine geology
   - Carbon, water, and volatile cycling
+  - Environmental and resource geoscience
   - Isotope geochemistry and petrology
   - Ocean-basin and tectonic evolution
 
@@ -43,66 +46,34 @@ education:
     end: 2025-06-30
     summary: |
       Advisor: Prof. Yunying Zhang.
+  - degree: Visiting Ph.D. Student
+    institution: Lamont-Doherty Earth Observatory, Columbia University
+    start: 2024-04-01
+    end: 2025-04-01
+    summary: |
+      Advisor: Prof. Susanne M. Straub.
   - degree: M.S., Sedimentology and Paleogeography
     institution: Institute of Sedimentary Geology, Chengdu University of Technology
     start: 2019-09-01
     end: 2022-06-30
     summary: |
       Advisor: Dr. Jun Wang.
-  - degree: Visiting Scholar
-    institution: Lamont-Doherty Earth Observatory, Columbia University
-    start: 2024-04-01
-    end: 2025-04-01
-    summary: |
-      Advisor: Prof. Susanne M. Straub.
 
 experience:
   - role: Postdoctoral Researcher
-    org: South China Sea Institute of Oceanology, Chinese Academy of Sciences
+    org: Deep Sea Drilling Center, Guangzhou Marine Geological Survey
     start: 2025-07-01
     summary: |
-      Affiliation: South China Sea Institute of Oceanology, Chinese Academy of Sciences.
-      Host institution: Deep Sea Drilling Center, Guangzhou Marine Geological Survey.
+      Host institute: Deep Sea Drilling Center, Guangzhou Marine Geological Survey.
+      Associated institute: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences.
       Advisor: Prof. Zhen Sun.
-  - role: Visiting Scholar
+  - role: Visiting Ph.D. Student
     org: Lamont-Doherty Earth Observatory, Columbia University
     start: 2024-04-01
     end: 2025-04-01
     summary: |
       Visiting research on isotope geochemistry and Earth material cycling.
       Advisor: Prof. Susanne M. Straub.
-
-skills:
-  - name: Geochemistry and Microanalysis
-    items:
-      - label: SIMS
-        level: 5
-      - label: MC-ICP-MS
-        level: 5
-      - label: LA-ICP-MS
-        level: 5
-      - label: SEM
-        level: 4
-      - label: XRF
-        level: 4
-  - name: Data Analysis and Modeling
-    items:
-      - label: Python
-        level: 4
-      - label: MATLAB
-        level: 4
-      - label: ArcGIS
-        level: 4
-      - label: Thermodynamic modeling
-        level: 4
-
-languages:
-  - name: English
-    level: 4
-    label: Professional
-  - name: Chinese
-    level: 5
-    label: Native
 
 awards:
   - title: AGU Student Travel Grant
@@ -121,6 +92,5 @@ awards:
     summary: Awarded during 2020-2022.
     icon: hero/star
   - title: Outstanding Graduation Thesis Award
-    awarder: Chengdu University of Technology
     date: "2019-06-01"
     icon: hero/document-text

@@ -9,9 +9,19 @@ sections:
     content:
       username: me
       text: |
-        I am from Shaoguan, a city in southern China near Danxia Mountain, one of
-        the classic landscapes associated with Danxia landforms. Growing up
-        close to these rocks helped spark my curiosity about geology.
+        I come from Shaoguan, a city in southern China. Its best-known
+        landscape is Danxia Mountain, a classic example of the
+        [Danxia landform](https://en.wikipedia.org/wiki/Danxia_landform).
+        Danxia landscapes are striking because red continental sandstones and
+        conglomerates have been carved into steep cliffs, flat-topped peaks,
+        narrow valleys, and layered rock walls. Seeing geology appear so
+        directly in the landscape was one reason I became curious about Earth
+        science.
+
+        <figure class="gp-inline-figure">
+          <img src="/uploads/about/danxiashan.jpg" alt="Danxia Mountain landform in Shaoguan, China">
+          <figcaption><strong>Danxia Mountain, Shaoguan.</strong> A representative Danxia landform. Image source: user-provided photograph.</figcaption>
+        </figure>
 
         I am now an early-career marine geologist interested in how Earth
         materials move through environments, resources, oceans, crust, and
@@ -19,8 +29,8 @@ sections:
         synthesis to ask how natural systems work and how people relate to
         them.
 
-        Outside research, I enjoy coffee, baking, LEGO, and staying active
-        through hiking, swimming, and cycling.
+        Outside research, I enjoy coffee, baking, visiting museums, and staying
+        active through hiking, swimming, and cycling.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -43,30 +53,31 @@ sections:
     id: research
     content:
       title: Research
-      subtitle: Earth material cycles across environments, oceans, and deep time
+      subtitle: Ocean drilling, carbon cycling, and environmental-resource records
       text: |-
-        I study how materials are produced, transported, transformed, and
-        recycled across Earth's surface, oceans, crust, and mantle. My current
-        work connects sedimentary basins, marine geology, ocean drilling, and
-        isotope geochemistry to understand environmental change, resource
-        formation, and deep Earth cycling.
+        I study how Earth materials are produced, transported, transformed, and
+        recycled across ocean basins, subduction systems, and sedimentary
+        environments. My work connects drilling samples, field observations,
+        petrology, isotope geochemistry, and stratigraphic records to understand
+        how deep and surface Earth processes are linked.
 
-        **Environmental and resource records.** Sedimentary basins preserve
-        signals of paleogeography, organic matter enrichment, and environmental
-        change. My earlier work in the South Poyang Basin used stratigraphic
-        and geochemical records to reconstruct depositional environments and
-        resource-related processes.
+        **Ocean drilling and ocean-basin geochemistry.** My current exploratory
+        work on fresh South China Sea spreading-ridge basalt samples combines
+        radiogenic and stable isotope tracers to test how mantle sources,
+        oceanic crust formation, and basin evolution shape deep material cycles
+        in marginal seas.
 
         **Carbon, water, and volatile cycling.** In the Makran system and
         related Pakistan magmatic belts, I examine how sediments, fluids, and
         melts transfer carbon, water, and trace elements from subducting plates
-        into arc and collision-zone magmatism.
+        into arc and collision-zone magmatism. This work links seafloor
+        sedimentary inputs to volcanic and tectonic outputs.
 
-        **Ocean drilling and ocean-basin geochemistry.** I am developing new
-        work on fresh South China Sea spreading-ridge basalt samples, combining
-        radiogenic and stable isotope tracers to test how mantle sources,
-        oceanic crust formation, and basin evolution shape material cycles in
-        marginal seas.
+        **Environmental and resource records.** Sedimentary basins preserve
+        signals of paleogeography, organic matter enrichment, and environmental
+        change. My South Poyang Basin work uses stratigraphic and geochemical
+        records to reconstruct depositional environments and resource-related
+        processes at the surface end of the material-cycle system.
     design:
       columns: '1'
 
@@ -99,21 +110,28 @@ sections:
     id: beyond-research
     content:
       title: Beyond Research
-      subtitle: Trails, summits, coffee, baking, and LEGO
+      subtitle: Coffee, baking, museums, trails, and movement
       text: |-
-        Fieldwork may have trained me to walk uphill with suspicious optimism.
-        When I am away from samples and spreadsheets, I like coffee, baking,
-        LEGO, hiking, swimming, cycling, and the occasional mountain that looks
-        negotiable from far away.
+        Away from samples and spreadsheets, I like making coffee, baking, and
+        spending time in museums. Hiking, swimming, and cycling are my usual
+        ways to reset after long weeks of research and writing.
 
         <div class="gp-photo-grid gp-photo-grid-wide">
           <figure class="gp-photo-card">
             <img src="/uploads/life/hiking-group.png" alt="Group hiking photo">
-            <figcaption><strong>Hiking.</strong> Find me in the third row from the back, first on the left: a small but properly oriented field marker.</figcaption>
+            <figcaption><strong>Hiking.</strong> A group walk with colleagues and friends in New York; I am near the back-left of the group.</figcaption>
           </figure>
           <figure class="gp-photo-card gp-photo-card-wide">
-            <img src="/uploads/life/xiongshan-summit.png" alt="Group photo after reaching the summit of Xiongshan">
-            <figcaption><strong>Xiongshan summit.</strong> The view did most of the motivational work; we just supplied the uphill walking.</figcaption>
+            <img src="/uploads/life/bear-mountain-summit.png" alt="Group photo after reaching Bear Mountain in New York">
+            <figcaption><strong>Bear Mountain, New York.</strong> A summit stop after hiking with friends.</figcaption>
+          </figure>
+          <figure class="gp-photo-card gp-photo-card-wide">
+            <img src="/uploads/life/cycling.png" alt="Roadside bicycle during a cycling trip">
+            <figcaption><strong>Cycling.</strong> A quiet way to explore a place at road speed.</figcaption>
+          </figure>
+          <figure class="gp-photo-card">
+            <img src="/uploads/life/bbq.png" alt="Outdoor barbecue with colleagues">
+            <figcaption><strong>BBQ.</strong> Food, conversation, and a useful pause from lab and desk work.</figcaption>
           </figure>
         </div>
     design:
@@ -123,13 +141,17 @@ sections:
     id: contact
     content:
       title: Contact & Collaboration
-      subtitle: Ocean drilling, isotope geochemistry, and material cycling
+      subtitle: GMGS Nansha Research Base, Guangzhou
       text: |-
         Email: [zengguangping22@mails.ucas.ac.cn](mailto:zengguangping22@mails.ucas.ac.cn)
 
-        I am based in Guangzhou and currently affiliated with the South China
-        Sea Institute of Oceanology, Chinese Academy of Sciences, and the Deep
-        Sea Drilling Center, Guangzhou Marine Geological Survey.
+        My primary base is the Deep Sea Drilling Center, Guangzhou Marine
+        Geological Survey (GMGS), in Nansha District, Guangzhou. I am also
+        associated with the [State Key Laboratory of Tropical Oceanography,
+        South China Sea Institute of Oceanology, Chinese Academy of
+        Sciences](http://sklto.scsio.ac.cn/).
+
+        Address: 1133 Haibin Road, Nansha District, Guangzhou, China.
 
         I welcome conversations about ocean drilling, marine geology, isotope
         geochemistry, carbon and volatile cycling, sedimentary records, and
@@ -137,8 +159,8 @@ sections:
         laboratory data, and broader Earth-system problems.
 
         <iframe
-          title="Guangzhou Marine Geological Survey location"
-          src="https://www.google.com/maps?q=Guangzhou%20Marine%20Geological%20Survey&output=embed"
+          title="GMGS Nansha Research Base location"
+          src="https://www.google.com/maps?q=Guangzhou%20Marine%20Geological%20Survey%20Nansha%20Research%20Base%201133%20Haibin%20Road%20Nansha%20District%20Guangzhou&hl=en&output=embed"
           width="100%"
           height="320"
           style="border:0; border-radius:12px; margin-top:1rem;"

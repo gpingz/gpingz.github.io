@@ -26,15 +26,11 @@ Pakistan.
 <div class="gp-photo-grid">
   <figure class="gp-photo-card">
     <img src="isotope-prep.png" alt="Element separation work in a clean laboratory">
-    <figcaption><strong>Isotope preparation.</strong> Element separation in the clean lab, where the suit looks dramatic but the real drama is blank control.</figcaption>
-  </figure>
-  <figure class="gp-photo-card gp-photo-card-wide">
-    <img src="makran-model.png" alt="Representative Makran carbon and isotope model">
-    <figcaption><strong>Representative constraints.</strong> Model and isotope-mixing views of sediment recycling at the Makran arc.</figcaption>
+    <figcaption><strong>Isotope preparation.</strong> Element separation in the clean lab during isotope pretreatment.</figcaption>
   </figure>
   <figure class="gp-photo-card">
     <img src="microscope-work.png" alt="Microscope observation of Makran samples">
-    <figcaption><strong>Before numbers, textures.</strong> Microscope work helps keep geochemical interpretations attached to real rocks.</figcaption>
+    <figcaption><strong>Petrographic check.</strong> Observing mineral textures before interpreting geochemical signals.</figcaption>
   </figure>
   <figure class="gp-photo-card">
     <img src="agu-2024-poster.png" alt="AGU 2024 poster presentation on Makran sediment recycling">
@@ -42,6 +38,6 @@ Pakistan.
   </figure>
   <figure class="gp-photo-card gp-photo-card-wide">
     <img src="pakistan-field-mubashir.png" alt="Field sampling in Pakistan volcanic terrain with colleague Mubashir">
-    <figcaption><strong>Field support.</strong> Colleague Mubashir helped with sampling in challenging Pakistan volcanic terrain.</figcaption>
+    <figcaption><strong>Field support.</strong> Colleague Mubashir helped collect samples from difficult field areas in Pakistan.</figcaption>
   </figure>
 </div>

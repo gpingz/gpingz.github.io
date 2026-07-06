@@ -22,7 +22,12 @@ tags:
   - Paleogeography
   - Organic matter enrichment
 featured: true
-links: []
+share: false
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=MfU38ZMAAAAJ
+  - name: Email
+    url: mailto:zengguangping22@mails.ucas.ac.cn
 image:
   caption: ''
   focal_point: ''
@@ -32,4 +37,17 @@ projects:
 slides: ''
 ---
 
+## Abstract
+
+This article reconstructs paleogeographic environment characteristics of the
+Guanshan Member of the Leping Formation in the Erjiacun Depression, southern
+Poyang Basin. The work uses sedimentary and stratigraphic evidence to discuss
+depositional environments, paleogeographic patterns, and organic matter
+enrichment in the basin.
+
 Fault-Block Oil & Gas Field, 29(2), 199-206. Published in Chinese.
+
+<div class="gp-publication-contact">
+  <a href="mailto:zengguangping22@mails.ucas.ac.cn">Email</a>
+  <a href="https://scholar.google.com/citations?user=MfU38ZMAAAAJ">Google Scholar</a>
+</div>

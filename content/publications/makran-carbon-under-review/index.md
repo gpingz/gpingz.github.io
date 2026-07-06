@@ -18,9 +18,14 @@ tags:
   - Organic carbon
   - Subduction recycling
 featured: true
-links: []
+share: false
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=MfU38ZMAAAAJ
+  - name: Email
+    url: mailto:zengguangping22@mails.ucas.ac.cn
 image:
-  caption: 'Representative model and isotope constraints for Makran sediment recycling.'
+  caption: ''
   focal_point: ''
   preview_only: false
 projects:
@@ -28,6 +33,18 @@ projects:
 slides: ''
 ---
 
+## Abstract
+
+This manuscript examines the return of subducted organic carbon in Makran arc
+volcanism. It links sediment inputs, volatile transfer, and isotope constraints
+to evaluate how efficiently organic carbon can be recycled from the subducting
+plate into arc volcanic outputs.
+
+![Model and isotope constraints for Makran sediment recycling.](makran-model.png)
+
 Status: under review.
 
-![Representative model and isotope constraints for Makran sediment recycling.](featured.png)
+<div class="gp-publication-contact">
+  <a href="mailto:zengguangping22@mails.ucas.ac.cn">Email</a>
+  <a href="https://scholar.google.com/citations?user=MfU38ZMAAAAJ">Google Scholar</a>
+</div>

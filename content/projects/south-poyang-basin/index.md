@@ -23,11 +23,11 @@ some very improvised logistics.
 <div class="gp-photo-grid">
   <figure class="gp-photo-card">
     <img src="human-scale-outcrop.png" alt="Using a person as scale beside a South Poyang outcrop">
-    <figcaption><strong>Human scale bar.</strong> I was briefly promoted from geologist to outcrop scale. The measuring tape approved.</figcaption>
+    <figcaption><strong>Human scale bar.</strong> Using myself as a field scale beside a South Poyang outcrop.</figcaption>
   </figure>
   <figure class="gp-photo-card gp-photo-card-wide">
     <img src="team-sampling.png" alt="Research group sampling at a South Poyang outcrop">
-    <figcaption><strong>Team sampling.</strong> The outcrop got most of the attention, which is how fieldwork should be.</figcaption>
+    <figcaption><strong>Team sampling.</strong> Group sampling at the outcrop, with careful notes and full sample bags.</figcaption>
   </figure>
   <figure class="gp-photo-card gp-photo-card-wide">
     <img src="core-description.png" alt="Observation and description of drilling cores">
@@ -35,6 +35,6 @@ some very improvised logistics.
   </figure>
   <figure class="gp-photo-card">
     <img src="playground-sample-sorting.png" alt="Preliminary sample sorting beside children's playground equipment">
-    <figcaption><strong>Sample sorting, field edition.</strong> Sometimes the best available lab bench is next to a children's slide.</figcaption>
+    <figcaption><strong>Sample sorting, field edition.</strong> Preliminary sample sorting beside a children's spring rider.</figcaption>
   </figure>
 </div>
