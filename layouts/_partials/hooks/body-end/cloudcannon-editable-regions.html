@@ -112,3 +112,60 @@
     });
   }());
 </script>
+
+<script
+  data-goatcounter="https://gpingz.goatcounter.com/count"
+  async
+  src="https://gc.zgo.at/count.js"
+></script>
+<script>
+  (function () {
+    var counterUrl = 'https://gpingz.goatcounter.com/counter/TOTAL.json';
+
+    function showVisitorCounter(count) {
+      var footer = document.querySelector('.page-footer footer') || document.querySelector('footer');
+      if (!footer || document.getElementById('gp-visitor-counter')) {
+        return;
+      }
+
+      var counter = document.createElement('p');
+      var label = document.createElement('span');
+      var value = document.createElement('strong');
+
+      counter.id = 'gp-visitor-counter';
+      counter.className = 'gp-visitor-counter';
+      label.textContent = 'Site visits';
+      value.textContent = count;
+      counter.append(label, value);
+      footer.insertBefore(counter, footer.firstChild);
+    }
+
+    function loadVisitorCounter() {
+      if (!window.fetch) {
+        return;
+      }
+
+      fetch(counterUrl, { cache: 'no-store' })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error('GoatCounter visitor count unavailable');
+          }
+          return response.json();
+        })
+        .then(function (data) {
+          if (data && data.count) {
+            showVisitorCounter(data.count);
+          }
+        })
+        .catch(function () {
+          // The public counter is optional and disabled until enabled in GoatCounter.
+        });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadVisitorCounter);
+    } else {
+      loadVisitorCounter();
+    }
+  }());
+</script>

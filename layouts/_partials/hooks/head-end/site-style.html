@@ -212,6 +212,22 @@
     text-decoration: none;
   }
 
+  .gp-visitor-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    margin: 0 auto 0.7rem;
+    color: rgb(71, 85, 105);
+    font-size: 0.86rem;
+    line-height: 1.4;
+  }
+
+  .gp-visitor-counter strong {
+    color: rgb(15, 118, 110);
+    font-weight: 700;
+  }
+
   #publications [role="article"] > div:first-child:not(:has(img)),
   #projects [role="article"] > div:first-child:not(:has(img)) {
     display: none;
@@ -245,6 +261,14 @@
 
   .dark .gp-publication-contact a {
     border-color: rgba(226, 232, 240, 0.18);
+    color: rgb(94, 234, 212);
+  }
+
+  .dark .gp-visitor-counter {
+    color: rgb(203, 213, 225);
+  }
+
+  .dark .gp-visitor-counter strong {
     color: rgb(94, 234, 212);
   }
 </style>
