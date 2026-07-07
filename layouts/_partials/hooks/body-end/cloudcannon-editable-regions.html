@@ -128,12 +128,48 @@
 <script>
   (function () {
     var languages = [
-      { code: 'en', label: 'EN', title: 'Show English original' },
-      { code: 'zh-CN', label: '中', title: 'Translate to Chinese' },
-      { code: 'fr', label: '法', title: 'Translate to French' },
-      { code: 'de', label: '德', title: 'Translate to German' },
-      { code: 'ja', label: '日', title: 'Translate to Japanese' },
-      { code: 'es', label: '西', title: 'Translate to Spanish' }
+      {
+        code: 'en',
+        label: 'EN',
+        title: 'Show English original',
+        loading: 'Restoring English...',
+        done: 'English original restored.'
+      },
+      {
+        code: 'zh-CN',
+        label: '中',
+        title: '翻译为中文',
+        loading: '正在翻译...',
+        done: '由 GTranslate 自动翻译。原文为英文。'
+      },
+      {
+        code: 'fr',
+        label: 'FR',
+        title: 'Traduire en français',
+        loading: 'Traduction...',
+        done: 'Traduction automatique par GTranslate. Le texte original est en anglais.'
+      },
+      {
+        code: 'de',
+        label: 'DE',
+        title: 'Ins Deutsche übersetzen',
+        loading: 'Wird übersetzt...',
+        done: 'Automatische Übersetzung von GTranslate. Der Originaltext ist Englisch.'
+      },
+      {
+        code: 'ja',
+        label: '日',
+        title: '日本語に翻訳',
+        loading: '翻訳中...',
+        done: 'GTranslate による自動翻訳です。原文は英語です。'
+      },
+      {
+        code: 'es',
+        label: 'ES',
+        title: 'Traducir al español',
+        loading: 'Traduciendo...',
+        done: 'Traducción automática por GTranslate. El texto original está en inglés.'
+      }
     ];
     var sourceLanguage = 'en';
     var toastTimer;
@@ -189,11 +225,18 @@
       }
     }
 
+    function getLanguageConfig(language) {
+      return languages.find(function (item) {
+        return item.code === language;
+      }) || languages[0];
+    }
+
     function translatePage(language) {
       var attempts = 0;
       var pair = sourceLanguage + '|' + language;
+      var languageConfig = getLanguageConfig(language);
 
-      showTranslateToast('Translating...', 0);
+      showTranslateToast(languageConfig.loading, 0);
       window.clearTimeout(doneTimer);
       setActiveLanguage(language);
 
@@ -205,12 +248,7 @@
           window.doGTranslate(pair);
           syncGTranslateSelector(language);
           doneTimer = window.setTimeout(function () {
-            showTranslateToast(
-              language === sourceLanguage
-                ? 'English original restored.'
-                : 'Automatic translation by GTranslate. Original text is English.',
-              6500
-            );
+            showTranslateToast(languageConfig.done, 6500);
           }, 2200);
           return;
         }
