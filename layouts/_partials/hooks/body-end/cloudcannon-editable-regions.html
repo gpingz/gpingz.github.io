@@ -113,15 +113,8 @@
   }());
 </script>
 
-<aside class="gp-translate-panel" aria-label="Machine translation">
-  <div class="gp-translate-row">
-    <span class="gp-translate-label">Translate</span>
-    <div class="gtranslate_wrapper"></div>
-  </div>
-  <p class="gp-translate-note">
-    Automatic AI translation. English is authoritative; translations may contain errors.
-  </p>
-</aside>
+<div class="gtranslate_wrapper gp-gtranslate-engine" aria-hidden="true"></div>
+<div id="gp-translate-toast" class="gp-translate-toast notranslate" role="status" aria-live="polite"></div>
 <script>
   window.gtranslateSettings = {
     default_language: 'en',
@@ -132,6 +125,156 @@
   };
 </script>
 <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+<script>
+  (function () {
+    var languages = [
+      { code: 'en', label: 'EN', title: 'Show English original' },
+      { code: 'zh-CN', label: '中', title: 'Translate to Chinese' },
+      { code: 'fr', label: '法', title: 'Translate to French' },
+      { code: 'de', label: '德', title: 'Translate to German' },
+      { code: 'ja', label: '日', title: 'Translate to Japanese' },
+      { code: 'es', label: '西', title: 'Translate to Spanish' }
+    ];
+    var sourceLanguage = 'en';
+    var toastTimer;
+    var doneTimer;
+
+    function getCurrentLanguage() {
+      var match = document.cookie.match('(^|;) ?googtrans=([^;]*)(;|$)');
+      return match ? match[2].split('/')[2] : sourceLanguage;
+    }
+
+    function setActiveLanguage(language) {
+      document.querySelectorAll('.gp-translate-button').forEach(function (button) {
+        button.setAttribute('aria-pressed', button.dataset.lang === language ? 'true' : 'false');
+      });
+    }
+
+    function showTranslateToast(message, duration) {
+      var toast = document.getElementById('gp-translate-toast');
+      if (!toast) {
+        return;
+      }
+
+      window.clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.classList.add('is-visible');
+
+      if (duration) {
+        toastTimer = window.setTimeout(function () {
+          toast.classList.remove('is-visible');
+        }, duration);
+      }
+    }
+
+    function primeGTranslateEngine() {
+      var engine = document.querySelector('.gtranslate_wrapper');
+      if (!engine) {
+        return;
+      }
+
+      ['pointerenter', 'focusin'].forEach(function (eventName) {
+        try {
+          engine.dispatchEvent(new Event(eventName, { bubbles: true }));
+        } catch (error) {
+          // Older browsers can skip the warm-up event; the next click can retry.
+        }
+      });
+    }
+
+    function syncGTranslateSelector(language) {
+      var selector = document.querySelector('.gtranslate_wrapper .gt_selector');
+      if (selector) {
+        selector.value = sourceLanguage + '|' + language;
+      }
+    }
+
+    function translatePage(language) {
+      var attempts = 0;
+      var pair = sourceLanguage + '|' + language;
+
+      showTranslateToast('Translating...', 0);
+      window.clearTimeout(doneTimer);
+      setActiveLanguage(language);
+
+      function run() {
+        attempts += 1;
+        primeGTranslateEngine();
+
+        if (typeof window.doGTranslate === 'function') {
+          window.doGTranslate(pair);
+          syncGTranslateSelector(language);
+          doneTimer = window.setTimeout(function () {
+            showTranslateToast(
+              language === sourceLanguage
+                ? 'English original restored.'
+                : 'Automatic translation by GTranslate. Original text is English.',
+              6500
+            );
+          }, 2200);
+          return;
+        }
+
+        if (attempts < 24) {
+          window.setTimeout(run, 250);
+        } else {
+          showTranslateToast('Translation service is still loading. Please try again.', 5000);
+        }
+      }
+
+      run();
+    }
+
+    function mountTranslateButtons() {
+      if (document.getElementById('gp-translate-nav')) {
+        return;
+      }
+
+      var searchButton = document.querySelector('[data-search-toggle]');
+      var host = searchButton ? searchButton.parentElement : document.querySelector('#site-header nav .order-1');
+      if (!host) {
+        return;
+      }
+
+      var nav = document.createElement('div');
+      nav.id = 'gp-translate-nav';
+      nav.className = 'gp-translate-nav notranslate';
+      nav.setAttribute('aria-label', 'Translate this site');
+
+      languages.forEach(function (language) {
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'gp-translate-button';
+        button.dataset.lang = language.code;
+        button.textContent = language.label;
+        button.title = language.title;
+        button.setAttribute('aria-label', language.title);
+        button.setAttribute('aria-pressed', 'false');
+        button.addEventListener('click', function () {
+          translatePage(language.code);
+        });
+        nav.appendChild(button);
+      });
+
+      if (searchButton && searchButton.nextSibling) {
+        host.insertBefore(nav, searchButton.nextSibling);
+      } else if (searchButton) {
+        host.appendChild(nav);
+      } else {
+        host.insertBefore(nav, host.firstChild);
+      }
+
+      setActiveLanguage(getCurrentLanguage());
+      primeGTranslateEngine();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', mountTranslateButtons);
+    } else {
+      mountTranslateButtons();
+    }
+  }());
+</script>
 
 <script
   data-goatcounter="https://gpingz.goatcounter.com/count"
