@@ -68,7 +68,9 @@ sections:
         related Pakistan magmatic belts, I examine how sediments, fluids, and
         melts transfer carbon, water, and trace elements from subducting plates
         into arc and collision-zone magmatism. This work links seafloor
-        sedimentary inputs to volcanic and tectonic outputs.
+        sedimentary inputs to volcanic and tectonic outputs, and also connects
+        mud-intrusive and mud-extrusive systems with fluid migration and
+        wedge-scale deformation.
 
         **Environmental and resource records.** Sedimentary basins preserve
         signals of paleogeography, organic matter enrichment, and environmental

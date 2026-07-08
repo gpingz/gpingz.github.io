@@ -23,6 +23,11 @@ Field and laboratory work for this project move between clean chemistry,
 microscope checks, isotope models, conference discussions, and field support in
 Pakistan.
 
+A related published study on the Makran accretionary wedge maps
+mud-intrusive and mud-extrusive systems, linking seismic structures, fluid
+migration, and wedge-scale deformation:
+[Gardezi et al. (2026)](/publications/makran-mud-systems/).
+
 <div class="gp-photo-grid">
   <figure class="gp-photo-card">
     <img src="isotope-prep.png" alt="Element separation work in a clean laboratory">
