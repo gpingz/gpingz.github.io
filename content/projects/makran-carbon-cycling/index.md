@@ -23,6 +23,9 @@ Field and laboratory work for this project move between clean chemistry,
 microscope checks, isotope models, conference discussions, and field support in
 Pakistan.
 
+The AGU Fall Meeting 2024 iPoster for this work is available online:
+[Sediment Recycling at the Makran Arc](https://agu24.ipostersessions.com/?s=8B-2D-04-8D-3E-E9-9F-7D-29-05-91-4C-38-C6-BD-A1).
+
 A related published study on the Makran accretionary wedge maps
 mud-intrusive and mud-extrusive systems, linking seismic structures, fluid
 migration, and wedge-scale deformation:
@@ -39,7 +42,7 @@ migration, and wedge-scale deformation:
   </figure>
   <figure class="gp-photo-card">
     <img src="agu-2024-poster.png" alt="AGU 2024 poster presentation on Makran sediment recycling">
-    <figcaption><strong>AGU 2024.</strong> Presenting Makran sediment recycling work at the poster wall.</figcaption>
+    <figcaption><strong>AGU 2024.</strong> Presenting the Makran sediment recycling iPoster at AGU Fall Meeting 2024.</figcaption>
   </figure>
   <figure class="gp-photo-card gp-photo-card-wide">
     <img src="pakistan-field-mubashir.png" alt="Field sampling in Pakistan volcanic terrain with colleague Mubashir">

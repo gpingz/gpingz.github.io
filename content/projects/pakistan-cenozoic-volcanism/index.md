@@ -17,3 +17,7 @@ I use geochronological, petrological, and geochemical constraints to evaluate
 how mantle sources, crustal inputs, and tectonic setting changed through time.
 The project provides the regional tectonic framework for interpreting material
 recycling in the Makran and neighboring magmatic systems.
+
+A related published study uses Chagai Hills magmatism to constrain the timing
+and pattern of India-Eurasia collision:
+[Zeng et al. (2026)](/publications/chagai-hills/).
